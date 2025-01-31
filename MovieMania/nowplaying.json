@@ -1,0 +1,102 @@
+[
+  {
+    "id": 939243,
+    "voteAverage": 0.79,
+    "title": "Sonic the Hedgehog 3",
+    "genre": "Family",
+    "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched in every way, Team Sonic must seek out an unlikely alliance in hopes of stopping Shadow and protecting the planet.",
+    "releaseDate": "2024-12-19",
+    "posterName": "sonic",
+    "isFeatured": false
+  },
+  {
+    "id": 1241982,
+    "voteAverage": 0.72,
+    "title": "Moana 2",
+    "genre": "Family",
+    "overview": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
+    "releaseDate": "2024-11-21",
+    "posterName": "moana",
+    "isFeatured": false
+  },
+  {
+    "id": 993710,
+    "voteAverage": 0.66,
+    "title": "Back in Action",
+    "genre": "Action",
+    "overview": "Fifteen years after vanishing from the CIA to start a family, elite spies Matt and Emily jump back into the world of espionage when their cover is blown.",
+    "releaseDate": "2025-01-15",
+    "posterName": "back-in-action",
+    "isFeatured": false
+  },
+  {
+    "id": 426063,
+    "voteAverage": 0.68,
+    "title": "Nosferatu",
+    "genre": "Horror",
+    "overview": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+    "releaseDate": "2024-12-25",
+    "posterName": "nosferatu",
+    "isFeatured": false
+  },
+  {
+    "id": 762509,
+    "voteAverage": 0.75,
+    "title": "Mufasa: The Lion King",
+    "genre": "Family",
+    "overview": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
+    "releaseDate": "2024-12-18",
+    "posterName": "mufasa",
+    "isFeatured": false
+  },
+  {
+    "id": 912649,
+    "voteAverage": 0.68,
+    "title": "Venom: The Last Dance",
+    "genre": "Sci-Fi",
+    "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
+    "releaseDate": "2024-10-22",
+    "posterName": "venom",
+    "isFeatured": false
+  },
+  {
+    "id": 558449,
+    "voteAverage": 0.68,
+    "title": "Gladiator II",
+    "genre": "Drama",
+    "overview": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
+    "releaseDate": "2024-11-05",
+    "posterName": "gladiator",
+    "isFeatured": false
+  },
+  {
+    "id": 85,
+    "voteAverage": 0.79,
+    "title": "Raiders of the Lost Ark",
+    "genre": "Action",
+    "overview": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+    "releaseDate": "1981-06-12",
+    "posterName": "raiders",
+    "isFeatured": false
+  },
+  {
+    "id": 933260,
+    "voteAverage": 0.71,
+    "title": "The Substance",
+    "genre": "Horror",
+    "overview": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+    "releaseDate": "2024-09-07",
+    "posterName": "substance",
+    "isFeatured": false
+  },
+  {
+    "id": 402431,
+    "voteAverage": 0.69,
+    "title": "Wicked",
+    "genre": "Fantasy",
+    "overview": "In the land of Oz, ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda at Shiz University, and the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West.",
+    "releaseDate": "2024-11-22",
+    "posterName": "wicked",
+    "isFeatured": false
+  }
+]
