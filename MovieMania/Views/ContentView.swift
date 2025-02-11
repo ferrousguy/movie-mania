@@ -1,16 +1,19 @@
 // ContentView.swift
 // MovieMania
 //
-// Created by Joben Gohlke on 1/2/25.
+// Created by Ben Gohlke on 1/2/25.
 // Copyright © 2025 Adapty. All rights reserved.
 //
 
 import SwiftUI
+import OSLog
 
 struct ContentView: View {
   @Environment(ModelData.self) var modelData
   
   @State private var isPresentingProfile: Bool = false
+  
+  let logger = Logger(subsystem: "io.adapty.MovieMania", category: "ContentView")
   
   var body: some View {
     NavigationStack {

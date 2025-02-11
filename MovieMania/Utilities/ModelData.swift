@@ -1,14 +1,14 @@
 // ModelData.swift
 // MovieMania
 //
-// Created by Joben Gohlke on Dec. 30, 2024.
+// Created by Ben Gohlke on Dec. 30, 2024.
 // Copyright © 2025 Adapty. All rights reserved.
 //
 
 import Foundation
 
 @Observable
-class ModelData {
+final class ModelData {
   var movies: [Movie] = load("nowplaying.json")
 
   var featured: [Movie] {

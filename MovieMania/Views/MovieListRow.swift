@@ -1,7 +1,7 @@
 // CategoryRow.swift
 // MovieMania
 //
-// Created by Joben Gohlke on 1/2/25.
+// Created by Ben Gohlke on 1/2/25.
 // Copyright © 2025 Adapty. All rights reserved.
 //
 
