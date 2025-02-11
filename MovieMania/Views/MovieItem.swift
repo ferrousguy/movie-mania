@@ -2,7 +2,7 @@
 // MovieItem.swift
 // MovieMania
 //
-// Created by Joben Gohlke on 1/2/25.
+// Created by Ben Gohlke on 1/2/25.
 // Copyright © 2025 Adapty. All rights reserved.
 //
 
@@ -28,10 +28,4 @@ struct MovieItem : View {
     }
     .padding(.leading, 15)
   }
-}
-
-#Preview {
-  let movies = ModelData().movies
-  MovieItem(movie: movies[1], showDate: true)
-    .padding()
 }

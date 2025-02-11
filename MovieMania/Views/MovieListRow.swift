@@ -1,7 +1,7 @@
 // CategoryRow.swift
 // MovieMania
 //
-// Created by Joben Gohlke on 1/2/25.
+// Created by Ben Gohlke on 1/2/25.
 // Copyright © 2025 Adapty. All rights reserved.
 //
 
@@ -41,15 +41,5 @@ struct MovieListRow: View {
       }
       .frame(height: 185)
     }
-  }
-}
-
-#Preview {
-  let genre: Genre = .family
-  let movies = ModelData().moviesByGenre[genre.rawValue]!
-  
-  NavigationStack {
-    MovieListRow(collectionName: genre.rawValue, movies: movies)
-      .environment(Profile.default)
   }
 }

@@ -1,7 +1,7 @@
 // MovieDetail.swift
 // MovieMania
 //
-// Created by Joben Gohlke on 1/2/25.
+// Created by Ben Gohlke on 1/2/25.
 // Copyright © 2025 Adapty. All rights reserved.
 //
 
@@ -84,13 +84,5 @@ struct MovieDetail : View {
         }
       }
     }
-  }
-}
-
-#Preview {
-  let movies = ModelData().movies
-  NavigationStack {
-    MovieDetail(movie: movies.randomElement()!)
-      .environment(Profile.default)
   }
 }

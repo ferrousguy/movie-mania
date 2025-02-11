@@ -1,7 +1,7 @@
 // ProfileListRow.swift
 // MovieMania
 //
-// Created by Joben Gohlke on 1/31/25.
+// Created by Ben Gohlke on 1/31/25.
 // Copyright © 2025 Adapty. All rights reserved.
 //
 
@@ -23,8 +23,4 @@ struct ProfileListRow: View {
         .bold()
     }
   }
-}
-
-#Preview {
-  ProfileListRow(labelText: "username", valueText: "j_appleseed")
 }
