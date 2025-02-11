@@ -31,7 +31,7 @@ final class AdaptyHelper: ObservableObject {
   }
   
   @MainActor
-  func refreshCustomeProfile() async throws {
+  func refreshCustomerProfile() async throws {
     customerProfile = try await Adapty.getProfile()
   }
   

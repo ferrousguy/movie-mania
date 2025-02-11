@@ -37,7 +37,7 @@ struct MovieManiaApp: App {
           .environment(profile)
           .task {
             do {
-              try await adaptyHelper.refreshCustomeProfile()
+              try await adaptyHelper.refreshCustomerProfile()
             } catch {
               logger.error("Error refreshing customer profile on launch: \(error.localizedDescription)")
             }
