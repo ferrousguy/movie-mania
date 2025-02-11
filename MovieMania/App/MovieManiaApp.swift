@@ -20,6 +20,7 @@ struct MovieManiaApp: App {
   
   init() {
     let configurationBuilder = AdaptyConfiguration.builder(withAPIKey: AppConstants.Adapty.apiKey)
+    Adapty.delegate = adaptyHelper
     
     Task {
       try await Adapty.activate(with: configurationBuilder)
