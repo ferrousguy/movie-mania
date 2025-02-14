@@ -77,6 +77,7 @@ struct ContentView: View {
       do {
         let paywall = try await Adapty.getPaywall(placementId: AppConstants.Adapty.Placement.onLaunch)
         paywallConfig = try await AdaptyUI.getPaywallConfiguration(forPaywall: paywall)
+        isPresentingPaywall = true
       } catch {
         logger.error("Error fetching paywall or paywall config: \(error.localizedDescription)")
       }

@@ -9,8 +9,8 @@ import Foundation
 
 struct AppConstants {
   struct Adapty {
-    static let apiKey = "API key goes here"
-    static let accessLevelID = "access level ID goes here"
+    static let sdkKey = "SDK key goes here"
+    static let accessLevelID = "premium"
     
     struct Placement {
       static let onLaunch = "on_launch"
