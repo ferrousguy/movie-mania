@@ -23,7 +23,7 @@ struct MovieManiaApp: App {
     Adapty.delegate = adaptyHelper
     
     Task {
-      try await Adapty.activate(with: configurationBuilder)
+      try await Adapty.activate(with: configurationBuilder.build())
       try await AdaptyUI.activate()
     }
   }
