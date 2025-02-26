@@ -19,7 +19,7 @@ struct MovieManiaApp: App {
   @ObservedObject private var adaptyHelper: AdaptyHelper = AdaptyHelper()
   
   init() {
-    let configurationBuilder = AdaptyConfiguration.builder(withAPIKey: AppConstants.Adapty.sdkKey)
+    let configurationBuilder = AdaptyConfiguration.builder(withAPIKey: AppConstants.Adapty.apiKey)
     Adapty.delegate = adaptyHelper
     
     Task {
