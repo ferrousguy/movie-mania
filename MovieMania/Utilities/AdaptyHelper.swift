@@ -15,12 +15,9 @@ final class AdaptyHelper: ObservableObject {
       subscriptionActive = customerProfile?.accessLevels[AppConstants.Adapty.accessLevelID]?.isActive == true
     }
   }
-  @Published var paywall: AdaptyPaywall?
-  @Published var paywallProduct: AdaptyPaywallProduct?
   @Published var subscriptionActive: Bool = false
   
   let logger = Logger(subsystem: "io.adapty.MovieMania", category: "Adapty Helper Service")
-  private var deferredProduct: AdaptyDeferredProduct?
   
   var activeAccessLevel: AdaptyProfile.AccessLevel? {
     if let customerProfile,
